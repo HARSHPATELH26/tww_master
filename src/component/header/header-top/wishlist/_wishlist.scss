@@ -1,0 +1,43 @@
+/**
+   * 3.6. Header Wishlist
+   */
+.site-header .header-page-link .wishlist-box {
+    font-size: 20px;
+    position: relative;
+    top: 0;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.site-header .header-page-link .wishlist-box:hover {
+    color: #000;
+    top: -3px;
+}
+
+.site-header.color-white .header-page-link .wishlist-box>a {
+    color: #fff;
+}
+
+.site-header .header-page-link .wishlist-box .count-wishlist {
+    position: absolute;
+    top: -5px;
+    right: -17px;
+    width: 17px;
+    height: 17px;
+    line-height: 17px;
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    background: #000;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    font-size: 11px;
+}
+
+.site-header.color-white .header-page-link .wishlist-box .count-wishlist {
+    background: #fff;
+    color: #000;
+}

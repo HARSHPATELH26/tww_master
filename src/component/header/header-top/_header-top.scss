@@ -1,0 +1,108 @@
+/**
+   * 3.1. Header Topbar
+   */
+#header-topbar {
+    font-size: 14px;
+    height: 45px;
+    line-height: 45px;
+}
+
+#header-topbar.topbar-v1 {
+    border-bottom: 1px solid rgba(0, 0, 0, .15);
+}
+
+#header-topbar,
+#header-topbar a,
+#header-topbar a:hover {
+    color: #000;
+}
+
+#header-topbar .address,
+#header-topbar .email,
+#header-topbar .phone,
+#header-topbar .ship {
+    display: inline-block;
+}
+
+#header-topbar .address i,
+#header-topbar .email i,
+#header-topbar .phone i,
+#header-topbar .ship i {
+    margin-right: 10px;
+    font-size: 15px;
+    position: relative;
+    top: 3px;
+    color: #000;
+}
+
+#header-topbar .email {
+    position: relative;
+    margin-left: 15px;
+    padding-left: 20px;
+}
+
+#header-topbar .email:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    background: rgba(0, 0, 0, .15);
+    width: 1px;
+    height: 18px;
+    top: calc(50% - 9px);
+}
+
+#header-topbar .topbar-right {
+    text-align: right;
+}
+
+#header-topbar #topbar_menu {
+    list-style: none;
+}
+
+#header-topbar .topbar-right>* {
+    display: inline-block;
+    padding: 0 15px 0 0;
+}
+
+#header-topbar .topbar-right> :last-child {
+    padding-right: 0;
+}
+
+#header-topbar #topbar-menu {
+    list-style: none;
+    margin-bottom: 0;
+}
+
+#header-topbar #topbar-menu li {
+    display: inline-block;
+    padding-right: 18px;
+    margin-right: 13px;
+    position: relative;
+}
+
+#header-topbar #topbar-menu li:last-child {
+    margin-right: 0;
+    padding-right: 0;
+}
+
+#header-topbar #topbar-menu li:before {
+    position: absolute;
+    content: "";
+    right: 0;
+    background: rgba(0, 0, 0, .15);
+    width: 1px;
+    height: 18px;
+    top: calc(50% - 9px);
+}
+
+#header-topbar #topbar-menu li:last-child:before {
+    content: none;
+}
+
+#header-topbar .topbar-right>* a,
+#header-topbar .topbar-right>* a:hover i {
+    color: #000;
+}
+
+
+
